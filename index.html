@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="media/GooseWatch.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- Jquery -->
+    <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>GooseWatch</title>
+</head>
+<body>
+<!--NAVBAR-->
+<div id="nav-placeholder"></div>
+<script>
+    $(function(){
+        $("#nav-placeholder").load("/elms/navbar.html");
+    });
+</script>
+<!--End Of Navbar-->
+<div id="PageHeader" class="container-fluid">
+    <div class="row" id="pageintro">
+        <div class="col-sm-6" id="FirstCol">
+            <h1>GooseWatch</h1>
+            <div class="mx-auto" style="max-width:30em; text-align: center;">GooseWatch Foundation for Truth and Understanding LLC is a long and storied foundation dedicated to finding and exposing the geese in our community. Originally founded in 2021 (1453 in goose years) Goosewatch has remained dedicated to finding and exposing the hidden geese that lurk among us. If you are interested in joining the foundation, Please reach out to a current member. If you have suspicions that a member of your community might secretly be a goose, it is your civic duty to report them.<br>
+                <a href="geese.html" class="btn btn-danger" style="margin: 1em">Known Geese</a>
+
+            </div>
+
+        </div>
+        <div class="col-sm-6">
+            <div class="imageBox">
+                <img id="SignImage" src="media/sign.png" class="img-responsive shadow"  alt="GooseWatchSign">
+            </div>
+
+        </div>
+        <hr>
+    </div>
+
+    <!-- Member Cards -->
+    <div class="container" id="MemberCards">
+        <div class="row" id="MemberCardRow">
+
+            <div class="card mx-auto shadow p-3" style="width: 18rem;">
+                <img src="media/George.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">George</h5>
+                    <p>The Founder</p>
+                    <hr>
+                    <p>Head of R&D</br>Pro Goose Spotter<br>Shitty Driver<br>Degenerate</p>
+                </div>
+            </div>
+            <div class="card mx-auto shadow p-3" style="width: 18rem;">
+                <img src="media/Marshallism.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Marshall</h5>
+                    <p>The Claw</p>
+                    <hr>
+                    <p>The Law<br>Crows Nest<br>Marshallist<br>Based</p>
+                </div>
+            </div>
+            <div class="card mx-auto shadow p-3" style="width: 18rem;">
+                <img src="media/e.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">E</h5>
+                    <p>The Spotter</p>
+                    <hr>
+                    <p>"Human" "Resources" <br>Goose Whisperer <br>Dish Washer<br>Lamp Connoisseur<br>Former (and Reformed) Goose</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Of Member Cards -->
+    <div class="row contactCard">
+        <span id="copyRightInfo" style="text-align: center;">Copyright © 2021 <i>GooseWatch Foundation for Truth and Understanding LLC</i>, All rights reserved.</span>
+    </div>
+</div>
+
+
+
+<script src="./js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="media/GooseWatch.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- Jquery -->
+    <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>GooseWatch</title>
+</head>
+<body>
+<!--NAVBAR-->
+<div id="nav-placeholder"></div>
+<script>
+    $(function(){
+        $("#nav-placeholder").load("/elms/navbar.html");
+    });
+</script>
+<!--End Of Navbar-->
+<div id="PageHeader" class="container-fluid">
+    <div class="row" id="pageintro">
+        <div class="col-sm-5" id="FirstCol">
+            <h1>Known Geese</h1>
+            <div class="mx-auto" style="max-width:30em; text-align: center;">Below is the up to date record of all known geese in the Rochester area. Be extremely careful when approaching any member of this list. Intel suggests that these geese might be hyper aggressive. Avoid at all costs.
+            </div>
+
+        </div>
+        <div class="col-sm-2">
+            <img id="SignImage" src="media/GooseWatch.png" alt="GooseWatchSign">
+        </div>
+        <div class="col-sm-5">
+            <h1>Report A Goose</h1>
+            <div class="mx-auto" style="max-width:30em; text-align: center;">To report a goose to GooseWatch, Please use the link below. Thank you for doing your part to keep the community safe.
+                <br><a href="https://forms.gle/NDR17xAyzpvQT45f9" class="btn btn-danger" style="margin: 1em">Report Here</a>
+            </div>
+
+        </div>
+    </div>
+    <hr>
+    <!-- Member Cards -->
+    <div class="container" id="MemberCards">
+        <div class="row" id="MemberCardRow">
+            <div class="card mx-auto shadow p-3" style="width: 18rem;">
+                <img src="media/Orlando.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Lizzie</h5>
+                    <p>Why do you think Orlando was so scared to eat bread in front of people for the past year? She was still learning how to control those goose instincts.</p>
+                    <a href="https://orlandolookslikeagoose.com" class="btn btn-primary">Goose Info</a>
+                </div>
+            </div>
+            <div class="card mx-auto shadow p-3" style="width: 18rem;">
+                <img src="media/goose_tina.png" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Tina</h5>
+                    <p>Tina is the most recent Goose to join the flock. Rumor has it that this goose has infiltrated the leadership of Engineering house. Be careful.</div>
+            </div>
+            <div class="card mx-auto shadow p-3" style="width: 18rem;">
+                <img src="media/Lucus.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title"><a href="https://www.rit.edu/studentgovernment/" style="text-decoration: none; color: black; ">Lucas</a></h5>
+                    <p>We have received reports that the individual known as “Lucas” might be a goose. We are unable to confidently determine if these reports are accurate. </p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- End Of Member Cards -->
+    <div class="row contactCard">
+        <span id="copyRightInfo" style="text-align: center;">Copyright © 2021 <i>GooseWatch Foundation for Truth and Understanding LLC</i>, All rights reserved.</span>
+    </div>
+</div>
+<script src="./js/bootstrap.js"></script>
+</body>
+
+</html>

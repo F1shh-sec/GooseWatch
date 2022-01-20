@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="media/GooseWatch.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- Jquery -->
+    <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>GooseWatch</title>
+</head>
+<body>
+<!--NAVBAR-->
+<div id="nav-placeholder">
+</div>
+<script>
+    $(function(){
+        $("#nav-placeholder").load("/elms/navbar.html");
+    });
+</script>
+<!--End Of Navbar-->
+<span id="knowMore"><h1>Want To Know More About Us?</h1></span>
+<span id="knowMoreSmall"><h1>Want To Know More <br>About Us?</h1></span>
+<div class="container">
+    <div class="row contactCard" id="GWInfo" >
+        <div class="col-lg" id="contactLeft" align="center">
+            <h1>Funded and Developed <br class="showSmallBr"> by <br class="hideSmallBr"> GooseWatch</h1>
+            <img src="media/GooseWatch.png" width="70%" style="max-width: 500px;" alt="GooseWatch">
+            <p>GooseWatch is a historic foundation dedicated to finding and exposing the geese in our community. If you suspect a member of your community is secretly a goose, please do not hesitate to reach out and contact us.</p>
+
+        </div>
+        <div class="col-lg"  id="contactMid" align="center">
+            <h1>Join The GooseWatch Discord</h1>
+            <iframe id="discWig" src="https://discord.com/widget?id=825146468947329034&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            <span><br id="discBr">Join the GooseWatch discord. The perfect place to share goose based conspiracy theories. <b>No geese allowed.</b>
+                If you are a goose, do not join. This is a goose free zone. If a goose joins, I will label it, and we will <b>all
+                laugh</b> at the goose. <b>The goose will be so embarrassed.</b><br>
+                <a href="https://discord.gg/BNHtAYrmuG"> Click Here to join.</a>
+            </span>
+        </div>
+        <div class="col-lg" id="contactRight">
+            <div class="conainer">
+                <div class="row contactCard">
+                    <div class="col-lg" align="center">
+                        <h1>GooseWatch HQ</h1>
+                        <p>Contact a member of GooseWatch if you need the location of GooseWatch Headquarters</p>
+                    </div>
+                </div>
+                <div class="row contactCard" style="border-bottom: none">
+                    <div class="col-lg" align="center">
+                        <h2>The Lore</h2>
+                        <a href="https://orlandolookslikeagoose.com" id="pageFoot" >Orlando Looks Like a goose .com</a><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row contactCard">
+        <span id="copyRightInfo" style="text-align: center;">Copyright © 2021 <i>GooseWatch Foundation for Truth and Understanding LLC</i>, All rights reserved.</span>
+    </div>
+</div>
+
+<script src="./js/bootstrap.js"></script>
+</body>
+</html>
